@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: 0.32rem;
+  font-family: "黑体"; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+  .box header {
+    width: 100%;
+    height: 1rem;
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center; }
+    .box header span {
+      flex: 1;
+      text-align: center; }
+    .box header h1 {
+      flex: 5;
+      text-align: center; }
+  .box section {
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll; }
+  .box footer {
+    width: 100%;
+    height: 1rem;
+    background: #000;
+    color: #ffffff; }
+    .box footer .list {
+      width: 100%;
+      display: flex; }
+      .box footer .list li {
+        flex: 1;
+        color: red; }
+
+/*# sourceMappingURL=style.css.map */
